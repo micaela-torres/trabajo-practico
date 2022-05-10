@@ -1,0 +1,24 @@
+.tarjetas {
+  background-color: blue;
+  display: flex;
+  flex-direction: row; }
+
+head {
+  background-color: darkgrey; }
+
+.principal {
+  text-align: center;
+  font-size: 40px;
+  color: aqua; }
+  .principal .texto {
+    text-align: justify;
+    color: blue;
+    background-color: antiquewhite; }
+
+.texto__secundario {
+  margin: 10px; }
+  .texto__secundario .texto__secundario--titulo {
+    color: black; }
+  .texto__secundario .texto__secundario--texto {
+    background-color: brown;
+    margin-top: 50px; }
